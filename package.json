@@ -1,0 +1,31 @@
+{
+  "name": "x-printer",
+  "version": "0.0.1",
+  "description": "pretty printer from prettierX",
+  "main": "index.js",
+  "files": [
+    "LICENSE.md",
+    "README.md",
+    "index.js",
+    "src"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brodybits/prettier-x-printer.git"
+  },
+  "author": "Christopher J. Brody",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/brodybits/prettier-x-printer/issues"
+  },
+  "homepage": "https://github.com/brodybits/prettier-x-printer#readme",
+  "dependencies": {
+    "prettierx": "0.18.2"
+  },
+  "devDependencies": {
+    "@babel/parser": "7.14.6"
+  }
+}
