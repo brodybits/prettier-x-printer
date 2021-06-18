@@ -1,4 +1,4 @@
-# prettier x-printer
+# prettier-x-printer
 
 Provides the Acorn / Babel / ESTree AST printing capability from **[prettierX](https://github.com/brodybits/prettierx)**.
 
@@ -9,7 +9,7 @@ Provides the Acorn / Babel / ESTree AST printing capability from **[prettierX](h
 ```js
 const { parse } = require("@babel/parser");
 
-const { printAcornTree } = require("x-printer");
+const { printAcornTree } = require("prettier-x-printer");
 
 const code = "console.log ('hello world')";
 
